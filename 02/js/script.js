@@ -2,6 +2,7 @@
 
 const nightColorBtn = document.getElementById("nightColorBtn");
 const lightColorBtn = document.getElementById("lightColorBtn");
+const thirdColorBtn = document.getElementById("yellowColorBtn");
 const body = document.body;
 
 nightColorBtn.addEventListener("click", () => {
@@ -12,4 +13,6 @@ lightColorBtn.addEventListener("click", () => {
   body.style = "background: #FFFFFF";
 });
 
-//s
+thirdColorBtn.addEventListener("click", () => {
+  body.style = "background: #FFFF00";
+});
